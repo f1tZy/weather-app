@@ -1,9 +1,11 @@
 # Weather App
 
+* Ссылка на статический [сайт](https://f1tzy.github.io/weather-app/) (запросы погоды можно делать только с localhost)
+
 Версия проекта: v 1.0.0
 
 ## Описание:
-Учебный проект по React, в ходе которого сделано приложение чтобы узнать погоду в вашем городе. Реальзован поиск информации о погоде с помощью сайта [openweathermap](https://openweathermap.org/).
+Учебный проект по React, в ходе которого сделан одностраничный сайт чтобы узнать погоду в вашем городе. Реальзован поиск информации о погоде с помощью сайта [openweathermap](https://openweathermap.org/). Настроена сборка webpack.
 
 ## Стек: 
 CSS, JavaScript, React, Bootstrap.
@@ -17,6 +19,8 @@ git clone https://github.com/f1tZy/weather-app.git - клонировать пр
 
 npm install - установить зависимости.
 
-npm run start - запускает локальный сервер на порту 3000.
+npm run dev - запускает локальный сервер в режиме разработки.
+
+npm run build - webpack собирает проект в папку dist.
 
 ```
